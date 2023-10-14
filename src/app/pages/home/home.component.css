@@ -1,0 +1,24 @@
+.home__container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+   
+
+}
+
+.card__img {
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform .8s;
+
+
+}
+
+.card__img:hover {
+   transform: scale(1.1);
+}
+
